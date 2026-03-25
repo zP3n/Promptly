@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "promptly",
+	"name": "Promptly",
+	"version": "${version}",
+	"description": "Bypass loooooong command to short command",
+	"authors": [
+		"zp3n"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/promptly/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"dev.zp3n.promptly.Promptly"
+		],
+		"client": [
+			"dev.zp3n.promptly.PromptlyClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": ">=0.140.0+1.21.11"
+	}
+}
