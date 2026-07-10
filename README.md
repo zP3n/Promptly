@@ -6,7 +6,7 @@ Currently, it only supports warp commands in Hypixel Skyblock, and the abbreviat
 but in the future, we plan to increase flexibility by letting users customize them themselves or adding toggle switches to enable or disable them.  
 
 ## How to Use
-Please use Fabric 1.21.11 or 26.1.  
+Please use Fabric 1.21.11, 26.1 or 26.2.  
 No libraries other than the Fabric API are required.  
 For the time being, we will focus on improving functionality and supporting updates.  
 Therefore, we have no plans to support Forge or older versions of Fabric for the time being.  
